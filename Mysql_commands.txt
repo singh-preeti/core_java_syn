@@ -26,3 +26,63 @@ INSERT INTO employees (Id, `Name`, Department, Salary, Gender, Age, City) VALUES
 
 
 SELECT * FROM employees WHERE Department = "HR";
+
+SELECT * FROM employees WHERE Gender = "Male" AND Salary > 35000;
+
+
+SELECT * FROM employees WHERE Gender = "Female" OR Department = "IT";
+
+
+SELECT * FROM employees WHERE (Gender = "Female" OR Department = "IT") AND Salary > 35000;
+
+UPDATE employees SET Salary = Salary + 2000 WHERE Department = "IT";
+
+DELETE FROM employees WHERE Department = "HR";
+
+
+SELECT Department, COUNT(*) AS TotalEmployee
+FROM Employees
+GROUP BY Department;
+
+SELECT COUNT(*) AS TotalEmployee FROM Employee;
+
+Example: Find the total salary given to all employees 
+
+cmd : SELECT SUM(Salary) as TotalSalary FROM Employees;  
+
+Example: Count the total salary given to each department in the employee table
+
+cmd: SELECT Department, SUM(Salary) as TotalSalary
+FROM Employees
+GROUP BY Department;       
+
+ Example: Find the Highest salary in Each Department of the Organization
+
+SELECT Department, MAX(SALARY) as MaxSalary
+FROM Employees
+GROUP BY Department;
+
+SELECT Department, MIN(SALARY) as MinSalary
+FROM Employees
+GROUP BY Department;
+
+
+Find the number of employees working in each Gender per department
+
+SELECT Department, Salary, COUNT(*) AS EmployeeCount
+FROM Employees
+GROUP BY Department, Salary
+ORDER BY Department;
+
+
+SELECT City, Gender,
+SUM(Salary) as TotalSalary,
+COUNT(ID) as TotalEmployees
+FROM Employees
+GROUP BY CITY, Gender;
+
+
+Find the average salary of each department
+SELECT Department, AVG(Salary) as AverageSalary
+FROM Employees
+GROUP BY Department;
