@@ -3,3 +3,6 @@ https://dotnettutorials.net/lesson/jdbc-in-java/ -> Jdbc
 
 ----Data Structure Links----------
 https://www.geeksforgeeks.org/stack-class-in-java/
+
+-----------------------------mysql----------------------------------------
+https://www.datacamp.com/tutorial/my-sql-tutorial
