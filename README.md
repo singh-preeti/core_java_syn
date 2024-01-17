@@ -8,3 +8,5 @@ https://www.geeksforgeeks.org/stack-class-in-java/
 https://www.datacamp.com/tutorial/my-sql-tutorial
 ----------------------------Joins-----------------------------------------
 https://www.freecodecamp.org/news/understanding-sql-joins/
+---------------------------indexes-------------------------
+https://www.digitalocean.com/community/tutorials/how-to-use-indexes-in-mysql
