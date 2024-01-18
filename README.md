@@ -10,3 +10,5 @@ https://www.datacamp.com/tutorial/my-sql-tutorial
 https://www.freecodecamp.org/news/understanding-sql-joins/
 ---------------------------indexes-------------------------
 https://www.digitalocean.com/community/tutorials/how-to-use-indexes-in-mysql
+----------------------Inner classes/Anonymous classes-----------------------
+https://dotnettutorials.net/lesson/inner-classes-in-java/
