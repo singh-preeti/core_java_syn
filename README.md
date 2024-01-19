@@ -14,3 +14,5 @@ https://www.digitalocean.com/community/tutorials/how-to-use-indexes-in-mysql
 https://dotnettutorials.net/lesson/inner-classes-in-java/
 -----------------------Java 8 features-------------------------
 https://www.digitalocean.com/community/tutorials/java-8-features-with-examples
+-----------------------JDBC --------------------------------------------------
+https://dotnettutorials.net/lesson/jdbc-in-java/
