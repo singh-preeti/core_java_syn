@@ -16,3 +16,5 @@ https://dotnettutorials.net/lesson/inner-classes-in-java/
 https://www.digitalocean.com/community/tutorials/java-8-features-with-examples
 -----------------------JDBC --------------------------------------------------
 https://dotnettutorials.net/lesson/jdbc-in-java/
+----------------------Hibernate---------------------------------------------
+https://www.digitalocean.com/community/tutorials/hibernate-tutorial-for-beginners
